@@ -1,0 +1,9 @@
+#!/bin/env ruby
+
+print "nothing."
+puts "Hi!"
+
+require 'video_stick'
+
+chatter = VideoStick::Chatter.new
+chatter.say_hello

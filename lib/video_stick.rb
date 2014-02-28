@@ -1,5 +1,9 @@
 require "video_stick/version"
 
 module VideoStick
-  # Your code goes here...
+  class Chatter
+    def say_hello
+      puts 'This is video_stick. Coming in loud and clear. Over.'
+    end
+  end
 end
