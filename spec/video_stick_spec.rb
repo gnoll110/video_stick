@@ -1,9 +1,11 @@
+require "video_stick"
+
 describe VideoStick::Builder do
-  it "broccoli is gross" do
-    VideoStick::Builder.name("Architecture").should eql(0)
+  it "architecture is bang" do
+    VideoStick::Builder.name("Architecture").should eql("Bang!")
   end
 
-  it "anything else is delicious" do
-    VideoStick::Builder.name("Ruby").should eql(0)
+  it "anything else is whiz" do
+    VideoStick::Builder.name("Ruby").should eql("Whiz!")
   end
 end

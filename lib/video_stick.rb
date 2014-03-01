@@ -1,4 +1,5 @@
 require "video_stick/version"
+require "video_stick/builder"
 
 module VideoStick
   class Chatter
